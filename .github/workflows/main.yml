@@ -18,4 +18,4 @@ jobs:
            - name: Install Surge
              run: npm install --global surge  
            - name: Run surge
-             run: surge ./build arsalanproject1streact.surge.sh --token ${{   secrets.SURGE_TOKEN }}
+             run: surge ./build arsalan-first-reactapp.surge.sh --token ${{   secrets.SURGE_TOKEN }}
